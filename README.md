@@ -1,3 +1,5 @@
+This repo was created for the NAGT webinar in March 2024. Feel free to check it out!
+
 # Introduction to "thinking algorithmically"
 ## Why me?
 I (Joanmarie Del Vecchio) entered Geology via the social sciences and enjoying hikes and fieldwork, and as an undergraduate I did not enjoy the computing aspects of the geosciences. However, in grad school, it became clear to me that nearly all aspects of modern geoscience research either involves, or is being transformed by, computing. Overtime I have come to use and appreciate computing approaches to my research; I now enjoy solving algorithmic "puzzles," figuring out how to tell a computer what I want to do. I also saw many of my friends from grad school deciding against academic careers and instead either leveraging their coding expertise or teaching themselves these skills to pivot to working in industry (and not necessarily geoscience industry). I think my experience can speak to many kinds of geoscientists, especially coding novices. 
