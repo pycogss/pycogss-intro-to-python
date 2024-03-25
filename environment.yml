@@ -1,0 +1,11 @@
+name: pycogssbasic
+channels:
+- conda-forge
+- defaults
+
+dependencies:
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- jupyterlab
