@@ -1,11 +1,18 @@
-name: pycogssbasic
+name: basic
 channels:
 - conda-forge
-- defaults
+- nodefaults
 
 dependencies:
 - numpy
 - pandas
 - matplotlib
 - seaborn
+- geopandas
+- rasterio
+- shapely
 - jupyterlab
+- pip
+
+- pip:
+  - dataretrieval
