@@ -1,8 +1,12 @@
 # The least painful way to access Python
 
-Adapted from the USGS’s [Python for Hydrology class instructions](https://github.com/DOI-USGS/python-for-hydrology/tree/main/installation). 
+<i>Adapted from the USGS’s [Python for Hydrology class instructions](https://github.com/DOI-USGS/python-for-hydrology/tree/main/installation). </i>
 
-This works best if you are working on your own computer (and not accessing a cluster or something like that) because you need a display. If you are interested in either conducting this workshop or your class in Jupyter notebooks via an institutional cluster, message me one-on-one and I can give you some tips.  
+
+# 0. Context
+These are instructions to <b>install Python</b> on a <b>computer on which you have administrative privileges</b>. This is <b>not necessarily the route through which your students will access Python in a class setting</b>, especially if they are using lab computers or other setups that do not allow for software installation. If you are here because you want to introduce Python into your undergraduate classroom, you should do some <b>institution-specific research</b> through your IT department and/or Computer Science department to learn what resources might already be available to you, such as a [JupyterHub](https://jupyter.org/hub) deployed on either onsite computing resources or in the cloud. For example, William and Mary maintains both a [cloud-based](https://jupyterhub.wm.edu/) and [cluster-based](notebooks.sciclone.wm.edu) JupyterHub. 
+
+For slightly more advanced users: this works best if you are working on your own computer (and not accessing a cluster or something like that) because you need a display. If you are interested in either conducting this workshop or your class in Jupyter notebooks via an institutional cluster, message me one-on-one and I can give you some tips.  
 
 # 1. Install miniforge
 
@@ -82,7 +86,9 @@ If this doesn’t work, you can always download the repo as a zipped file from t
 
 # Optional upgrade: Use VS Code to access Python
 
-1. Install VS Code
+<i>For those comfortable with the above steps and want to access their miniforge install in a sleek user interface popular with research and industry</i>
+
+1. Install [VS Code](https://code.visualstudio.com/)
 2. Install the Python and Jupyter extensions (Ctrl+Shift+X, Cmd+Shift+X. or the “Extensions” button on the left)
 3. Select the Python Interpreter by opening the Command Palette (Ctrl+Shift+P or Cmd+Shift+P) and select your `serc` environment. 
 4. Run existing notebooks or create your own new file in the Explorer tab.
