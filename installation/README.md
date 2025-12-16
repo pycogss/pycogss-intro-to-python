@@ -2,6 +2,7 @@
 
 <i>Adapted from the USGS’s [Python for Hydrology class instructions](https://github.com/DOI-USGS/python-for-hydrology/tree/main/installation). </i>
 
+! If you run into an issue with this installation, use the [<b>Issues</b>](https://github.com/pycogss/pycogss-intro-to-python/issues) tab to open an issue - if you have a question or problem, someone else probably does, and we can track the progress of any issues or fixes!
 
 # 0. Context
 These are instructions to <b>install Python</b> on a <b>computer on which you have administrative privileges</b>. This is <b>not necessarily the route through which your students will access Python in a class setting</b>, especially if they are using lab computers or other setups that do not allow for software installation. If you are here because you want to introduce Python into your undergraduate classroom, you should do some <b>institution-specific research</b> through your IT department and/or Computer Science department to learn what resources might already be available to you, such as a [JupyterHub](https://jupyter.org/hub) deployed on either onsite computing resources or in the cloud. For example, William and Mary maintains both a [cloud-based](https://jupyterhub.wm.edu/) and [cluster-based](notebooks.sciclone.wm.edu) JupyterHub. 
@@ -47,14 +48,14 @@ When prompted, enter `y` (for “yes”) and let the installation proceed.
 Once the installation has completed, type the following comand:
 
 ```jsx
-**conda** activate serc
+conda activate basic
 ```
 
-(*not* mamba activate). If successful, you should see a `(serc)` at the beginning of your line instead of the `(base)` environment
+(*not* mamba activate). If successful, you should see a `(basic)` at the beginning of your line instead of the `(base)` environment
 
 # 3. Activate JupyterLab
 
-If you have successfully activated the `serc` environment, you can now type the command:
+If you have successfully activated the `basic` environment, you can now type the command:
 
 ```jsx
 jupyter lab
@@ -67,7 +68,7 @@ At this point, you can create your own Jupyter notebook files by clicking the �
 From now on, anytime you want to bring up JupyterLab, follow these steps:
 
 1. Open Miniforge Prompt
-2. Activate your environment in which you have installed `jkupyter lab` (like `serc`)
+2. Activate your environment in which you have installed `jupyter lab` (like `basic`)
 3. type `jupyter lab` 
 
 # 4. Download the workshop repository
@@ -90,5 +91,5 @@ If this doesn’t work, you can always download the repo as a zipped file from t
 
 1. Install [VS Code](https://code.visualstudio.com/)
 2. Install the Python and Jupyter extensions (Ctrl+Shift+X, Cmd+Shift+X. or the “Extensions” button on the left)
-3. Select the Python Interpreter by opening the Command Palette (Ctrl+Shift+P or Cmd+Shift+P) and select your `serc` environment. 
+3. Select the Python Interpreter by opening the Command Palette (Ctrl+Shift+P or Cmd+Shift+P) and select your `basic` environment. 
 4. Run existing notebooks or create your own new file in the Explorer tab.
