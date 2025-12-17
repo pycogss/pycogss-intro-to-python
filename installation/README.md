@@ -33,9 +33,11 @@ where `OS-arch` above is the operating system and architecture (MacOSX-x86_64,
 
 # 2. Create and activate the workshop environment
 
+Download the `environment.yml` file [found in this directory](https://github.com/pycogss/pycogss-intro-to-python/blob/main/installation/environment.yml) by clicking the "download raw file" button to the right. Place this file in a directory in which you can have quick access (perhaps Documents, or Downloads). 
+
 For Windows operating systems, open the "Miniforge Prompt" installed to the start menu. For MacOS and Linux operating systems, open a terminal. You will see that you are located in either your “User” folder (or *directory*) if using Windows or some equivalent in MacOS/Linux.
 
-Now, you will need to navigate to the directory where you downloaded the `environment.yml` file that was included in the email with software installation instructions. This will be tricky because you must use the command line instead of clicking. You enter a directory by typing `cd`, and you back out of a directory by typing `cd ..` . In MacOS/Linux, you can list every file in the directory by typing `cd` . In Windows, the command is `dir` . A useful trick is that you can use the Tab button to autocomplete directories if they are present. For example, you can write `cd on` and then hit “Tab” to autocomplete to `cd "One Drive - William and Mary` if that directory is located in your current directory. Very useful! 
+Now, you will need to navigate to the directory where you downloaded the `environment.yml` file. This will be tricky because you must use the command line instead of clicking. You enter a directory by typing `cd`, and you back out of a directory by typing `cd ..` . In MacOS/Linux, you can list every file in the directory by typing `cd` . In Windows, the command is `dir` . A useful trick is that you can use the Tab button to autocomplete directories if they are present. For example, you can write `cd on` and then hit “Tab” to autocomplete to `cd "One Drive - William and Mary` if that directory is located in your current directory. Very useful! 
 
 Once you have confirmed you are in the right directory by revealing the `environment.yml` file in your current directory using `ls` or `dir`, type the following command
 
@@ -84,6 +86,8 @@ git clone https://github.com/pycogss/pycogss-intro-to-python.git
 This will download the repo to your current directory, which you can then access like any other directory. 
 
 If this doesn’t work, you can always download the repo as a zipped file from the webpage for the repo. 
+
+Note that steps 2 and 4 can be reversed - once you are comfortable with cloning repositories, you can clone the repository and <i>then</i> create an evironment if the repo has an `environment.yml` (or similarly named) file. 
 
 # Optional upgrade: Use VS Code to access Python
 
