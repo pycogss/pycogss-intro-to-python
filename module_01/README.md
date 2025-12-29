@@ -7,7 +7,7 @@
 <!-- - [ ]  log in to W&M’s JupyterHub [https://jupyterhub.wm.edu/](https://jupyterhub.wm.edu/). Click “Start My Server”, and choose Default Notebook. -->
 - [ ] Log in to W&M's [JupyterHub](https://notebooks.sciclone.wm.edu/hub/login?next=%2Fhub%2F) served on the sciclone cluster. For now, choose "Basic Python" and "CPU Only."
 - [ ]  Under “Other” navigate to “Terminal.”
-- [ ]  [Clone](https://swcarpentry.github.io/git-novice/08-collab.html) the repo using `git clone https://github.com/jmdelvecchio/geol437.git`
+- [ ]  [Clone](https://swcarpentry.github.io/git-novice/08-collab.html) the repo using the command `git clone https://github.com/jmdelvecchio/geol437.git`
 - [ ]  Navigate to the newly downloaded `geol437`directory
 
 ## Execute the two notebooks in the `0909` directory
